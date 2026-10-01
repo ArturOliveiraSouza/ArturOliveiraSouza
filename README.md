@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:1d4ed8,100:06b6d4&height=230&section=header&text=Artur%20Oliveira&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineering%20Student%20%7C%20Developer&descAlignY=62&descSize=20" width="100%"/>
+<img src="banner.svg" width="100%"/>
 
 
 ### 💻 Desenvolvedor em formação • Engenharia de Software • Técnico em Informática
