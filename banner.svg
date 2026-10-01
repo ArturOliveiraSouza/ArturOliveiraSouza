@@ -1,48 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1000"
+     height="300"
+     viewBox="0 0 1000 300"
+     role="img"
+     aria-labelledby="title desc">
 
-  <title id="title">Artur Oliveira — Engenharia de Software</title>
-  <desc id="desc">Banner de perfil de Artur Oliveira, estudante de Engenharia de Software e Técnico em Informática.</desc>
+  <title id="title">Artur Oliveira — Software Developer</title>
+  <desc id="desc">
+    Banner de Artur Oliveira, estudante de Engenharia de Software e Técnico em Informática.
+  </desc>
 
   <defs>
 
     <!-- Fundo -->
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#070b14"/>
-      <stop offset="55%" stop-color="#0d1728"/>
-      <stop offset="100%" stop-color="#102b43"/>
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="50%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#102a43"/>
     </linearGradient>
 
     <!-- Brilho -->
     <radialGradient id="glow">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity=".20"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
     </radialGradient>
 
     <!-- Grid -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <pattern id="grid"
+             width="40"
+             height="40"
+             patternUnits="userSpaceOnUse">
+
       <path
         d="M40 0H0V40"
         fill="none"
         stroke="#38bdf8"
-        stroke-opacity=".055"
+        stroke-opacity=".045"
         stroke-width="1"
       />
+
     </pattern>
 
     <!-- Gradiente do nome -->
-    <linearGradient id="name" x1="0" x2="1">
-      <stop offset="0%" stop-color="#f8fafc"/>
-      <stop offset="55%" stop-color="#f8fafc"/>
+    <linearGradient id="name"
+                    x1="0"
+                    x2="1">
+
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="65%" stop-color="#ffffff"/>
       <stop offset="100%" stop-color="#38bdf8"/>
+
     </linearGradient>
 
   </defs>
+
 
   <!-- Fundo -->
   <rect
     width="1000"
     height="300"
-    rx="22"
+    rx="24"
     fill="url(#bg)"
   />
 
@@ -50,201 +67,273 @@
   <rect
     width="1000"
     height="300"
-    rx="22"
+    rx="24"
     fill="url(#grid)"
   />
 
-  <!-- Glow -->
+
+  <!-- Brilho lateral -->
   <circle
     cx="820"
-    cy="150"
-    r="180"
+    cy="145"
+    r="190"
     fill="url(#glow)"
   />
 
-  <!-- Cantos -->
+
+  <!-- Detalhes dos cantos -->
+
   <path
-    d="M40 70V40H115
-       M885 40H960V70
-       M40 230V260H115
-       M885 260H960V230"
+    d="
+      M35 65V35H105
+      M895 35H965V65
+      M35 235V265H105
+      M895 265H965V235
+    "
     fill="none"
-    stroke="#38bdf8"
+    stroke="#22d3ee"
     stroke-width="2"
     stroke-linecap="round"
   />
 
-  <!-- Ponto animado -->
+
+  <!-- Indicador -->
+
   <circle
-    cx="65"
-    cy="88"
+    cx="62"
+    cy="78"
     r="4"
-    fill="#38bdf8"
-  >
+    fill="#22d3ee">
+
     <animate
       attributeName="opacity"
-      values="1;.25;1"
-      dur="2.5s"
+      values="1;.3;1"
+      dur="2s"
       repeatCount="indefinite"
     />
+
   </circle>
 
+
   <!-- Identificação -->
+
   <text
-    x="82"
-    y="93"
-    fill="#38bdf8"
+    x="80"
+    y="83"
+    fill="#22d3ee"
     font-family="monospace"
-    font-size="13"
-    letter-spacing="2"
-  >
-    PERFIL / ARTUR OLIVEIRA
+    font-size="12"
+    letter-spacing="2">
+
+    ARTUR OLIVEIRA / DEV
+
   </text>
 
+
   <!-- Nome -->
+
   <text
-    x="62"
-    y="160"
+    x="60"
+    y="155"
     fill="url(#name)"
     font-family="Segoe UI, Arial, sans-serif"
     font-size="52"
-    font-weight="700"
-  >
+    font-weight="700">
+
     Artur Oliveira
+
   </text>
 
-  <!-- Formação -->
+
+  <!-- Cargo -->
+
   <text
-    x="65"
-    y="201"
+    x="63"
+    y="195"
     fill="#cbd5e1"
     font-family="Segoe UI, Arial, sans-serif"
-    font-size="21"
-  >
-    Engenharia de Software
+    font-size="21">
+
+    Estudante de Engenharia de Software
+
   </text>
 
-  <!-- Linha de descrição -->
+
+  <!-- Tecnologias -->
+
   <text
-    x="65"
-    y="237"
-    fill="#38bdf8"
+    x="63"
+    y="230"
+    fill="#22d3ee"
     font-family="monospace"
-    font-size="13"
-    letter-spacing="1"
-  >
-    DESENVOLVIMENTO · TECNOLOGIA · APRENDIZADO
+    font-size="12"
+    letter-spacing="1">
+
+    PYTHON · PHP · JAVASCRIPT · SQL · WEB
+
   </text>
 
-  <!-- Elemento de código -->
-  <g
-    transform="translate(820 150)"
-    fill="none"
-    stroke="#38bdf8"
-  >
 
-    <!-- Círculos -->
+  <!-- TERMINAL -->
+
+  <g transform="translate(680 82)">
+
+    <!-- Janela -->
+
+    <rect
+      width="250"
+      height="145"
+      rx="12"
+      fill="#050b14"
+      stroke="#38bdf8"
+      stroke-opacity=".25"
+    />
+
+
+    <!-- Barra -->
+
+    <rect
+      width="250"
+      height="30"
+      rx="12"
+      fill="#0d1726"
+    />
+
+    <rect
+      y="18"
+      width="250"
+      height="12"
+      fill="#0d1726"
+    />
+
+
+    <!-- Botões -->
+
     <circle
-      r="70"
-      opacity=".10"
+      cx="18"
+      cy="15"
+      r="4"
+      fill="#ef4444"
     />
 
     <circle
-      r="57"
-      opacity=".18"
+      cx="32"
+      cy="15"
+      r="4"
+      fill="#eab308"
     />
 
     <circle
-      r="43"
-      opacity=".30"
+      cx="46"
+      cy="15"
+      r="4"
+      fill="#22c55e"
     />
 
-    <!-- Símbolo </> -->
-    <path
-      d="M-25-20L-47 0L-25 20"
-      stroke-width="3"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
 
-    <path
-      d="M25-20L47 0L25 20"
-      stroke-width="3"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
+    <!-- Código -->
 
-    <path
-      d="M10-31L-10 31"
-      stroke-width="3"
-      stroke-linecap="round"
-    />
+    <text
+      x="18"
+      y="58"
+      fill="#64748b"
+      font-family="monospace"
+      font-size="11">
 
-    <!-- Cruz tecnológica -->
-    <path
-      d="M0-78V-67
-         M0 67V78
-         M-78 0H-67
-         M67 0H78"
-      stroke-width="2"
-      opacity=".7"
-    />
+      &lt;developer&gt;
 
-    <!-- Pontos -->
-    <circle
-      cx="-63"
-      cy="-63"
-      r="2"
+    </text>
+
+
+    <text
+      x="18"
+      y="80"
       fill="#38bdf8"
-    />
+      font-family="monospace"
+      font-size="11">
 
-    <circle
-      cx="63"
-      cy="-63"
-      r="2"
-      fill="#38bdf8"
-    />
+      const developer =
 
-    <circle
-      cx="-63"
-      cy="63"
-      r="2"
-      fill="#38bdf8"
-    />
+    </text>
 
-    <circle
-      cx="63"
-      cy="63"
-      r="2"
-      fill="#38bdf8"
-    />
+
+    <text
+      x="18"
+      y="101"
+      fill="#f8fafc"
+      font-family="monospace"
+      font-size="11">
+
+      "Artur";
+
+    </text>
+
+
+    <text
+      x="18"
+      y="123"
+      fill="#22d3ee"
+      font-family="monospace"
+      font-size="11">
+
+      &lt;/developer&gt;
+
+    </text>
+
+
+    <!-- Cursor -->
+
+    <rect
+      x="111"
+      y="113"
+      width="6"
+      height="13"
+      fill="#22d3ee">
+
+      <animate
+        attributeName="opacity"
+        values="1;0;1"
+        dur="1s"
+        repeatCount="indefinite"
+      />
+
+    </rect>
 
   </g>
 
+
   <!-- Linha inferior -->
-  <path
-    d="M65 270H935"
+
+  <line
+    x1="60"
+    y1="265"
+    x2="940"
+    y2="265"
     stroke="#38bdf8"
     stroke-opacity=".12"
   />
 
-  <!-- Indicador -->
+
+  <!-- Status -->
+
   <circle
-    cx="65"
-    cy="270"
-    r="2"
-    fill="#38bdf8"
+    cx="63"
+    cy="265"
+    r="2.5"
+    fill="#22c55e"
   />
 
   <text
-    x="78"
-    y="274"
+    x="75"
+    y="269"
     fill="#64748b"
     font-family="monospace"
     font-size="10"
-    letter-spacing="1"
-  >
-    SOFTWARE ENGINEERING STUDENT
+    letter-spacing="1">
+
+    ALWAYS LEARNING · ALWAYS BUILDING
+
   </text>
+
 
 </svg>
