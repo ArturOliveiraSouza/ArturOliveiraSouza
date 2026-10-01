@@ -44,7 +44,7 @@ Minha trajetória é voltada para tecnologia e desenvolvimento de software. Gost
 ### Linguagens & Web
 
 <p>
-<img src="https://skillicons.dev/icons?i=python,js,html,css" />
+<img src="https://skillicons.dev/icons?i=php,python,sql,js,html,css" />
 </p>
 
 ### Banco de Dados & Ferramentas
