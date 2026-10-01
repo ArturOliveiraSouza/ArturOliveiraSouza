@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+
+  <title id="title">Artur Oliveira — Engenharia de Software</title>
+  <desc id="desc">Banner de perfil de Artur Oliveira, estudante de Engenharia de Software e Técnico em Informática.</desc>
+
+  <defs>
+
+    <!-- Fundo -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="55%" stop-color="#0d1728"/>
+      <stop offset="100%" stop-color="#102b43"/>
+    </linearGradient>
+
+    <!-- Brilho -->
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity=".20"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grid -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path
+        d="M40 0H0V40"
+        fill="none"
+        stroke="#38bdf8"
+        stroke-opacity=".055"
+        stroke-width="1"
+      />
+    </pattern>
+
+    <!-- Gradiente do nome -->
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="55%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+  </defs>
+
+  <!-- Fundo -->
+  <rect
+    width="1000"
+    height="300"
+    rx="22"
+    fill="url(#bg)"
+  />
+
+  <!-- Grid -->
+  <rect
+    width="1000"
+    height="300"
+    rx="22"
+    fill="url(#grid)"
+  />
+
+  <!-- Glow -->
+  <circle
+    cx="820"
+    cy="150"
+    r="180"
+    fill="url(#glow)"
+  />
+
+  <!-- Cantos -->
+  <path
+    d="M40 70V40H115
+       M885 40H960V70
+       M40 230V260H115
+       M885 260H960V230"
+    fill="none"
+    stroke="#38bdf8"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+
+  <!-- Ponto animado -->
+  <circle
+    cx="65"
+    cy="88"
+    r="4"
+    fill="#38bdf8"
+  >
+    <animate
+      attributeName="opacity"
+      values="1;.25;1"
+      dur="2.5s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <!-- Identificação -->
+  <text
+    x="82"
+    y="93"
+    fill="#38bdf8"
+    font-family="monospace"
+    font-size="13"
+    letter-spacing="2"
+  >
+    PERFIL / ARTUR OLIVEIRA
+  </text>
+
+  <!-- Nome -->
+  <text
+    x="62"
+    y="160"
+    fill="url(#name)"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="52"
+    font-weight="700"
+  >
+    Artur Oliveira
+  </text>
+
+  <!-- Formação -->
+  <text
+    x="65"
+    y="201"
+    fill="#cbd5e1"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="21"
+  >
+    Engenharia de Software
+  </text>
+
+  <!-- Linha de descrição -->
+  <text
+    x="65"
+    y="237"
+    fill="#38bdf8"
+    font-family="monospace"
+    font-size="13"
+    letter-spacing="1"
+  >
+    DESENVOLVIMENTO · TECNOLOGIA · APRENDIZADO
+  </text>
+
+  <!-- Elemento de código -->
+  <g
+    transform="translate(820 150)"
+    fill="none"
+    stroke="#38bdf8"
+  >
+
+    <!-- Círculos -->
+    <circle
+      r="70"
+      opacity=".10"
+    />
+
+    <circle
+      r="57"
+      opacity=".18"
+    />
+
+    <circle
+      r="43"
+      opacity=".30"
+    />
+
+    <!-- Símbolo </> -->
+    <path
+      d="M-25-20L-47 0L-25 20"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <path
+      d="M25-20L47 0L25 20"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <path
+      d="M10-31L-10 31"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+
+    <!-- Cruz tecnológica -->
+    <path
+      d="M0-78V-67
+         M0 67V78
+         M-78 0H-67
+         M67 0H78"
+      stroke-width="2"
+      opacity=".7"
+    />
+
+    <!-- Pontos -->
+    <circle
+      cx="-63"
+      cy="-63"
+      r="2"
+      fill="#38bdf8"
+    />
+
+    <circle
+      cx="63"
+      cy="-63"
+      r="2"
+      fill="#38bdf8"
+    />
+
+    <circle
+      cx="-63"
+      cy="63"
+      r="2"
+      fill="#38bdf8"
+    />
+
+    <circle
+      cx="63"
+      cy="63"
+      r="2"
+      fill="#38bdf8"
+    />
+
+  </g>
+
+  <!-- Linha inferior -->
+  <path
+    d="M65 270H935"
+    stroke="#38bdf8"
+    stroke-opacity=".12"
+  />
+
+  <!-- Indicador -->
+  <circle
+    cx="65"
+    cy="270"
+    r="2"
+    fill="#38bdf8"
+  />
+
+  <text
+    x="78"
+    y="274"
+    fill="#64748b"
+    font-family="monospace"
+    font-size="10"
+    letter-spacing="1"
+  >
+    SOFTWARE ENGINEERING STUDENT
+  </text>
+
+</svg>
