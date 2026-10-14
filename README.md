@@ -84,21 +84,6 @@ Minha trajetória é voltada para tecnologia e desenvolvimento de software. Gost
 
 ---
 
-### 🐾 Sistema para Pet Shop
-
-> Projeto conceitual focado em solucionar problemas de organização de um pet shop.
-
-**Funcionalidades planejadas**
-- 👤 Clientes e animais
-- 📅 Agendamentos
-- 💉 Controle de vacinação
-- 💰 Controle financeiro
-- 📋 Histórico de atendimentos
-
-`Web` `Banco de Dados` `Engenharia de Software`
-
----
-
 ### 🌐 Projetos Web
 
 Também desenvolvo páginas e pequenas aplicações para praticar **interfaces, responsividade, JavaScript e integração com APIs**.
